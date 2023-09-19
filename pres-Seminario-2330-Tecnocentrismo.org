@@ -83,6 +83,7 @@ Redondear el concepto antarior con la frase supuestamente dicha por Dali (aclaro
 + Determinismo tecnológico [cite:@Bijker2012; @Wyatt2008]
 + Tecnoutopianismo [cite:@Lim2018] 
 + Carisma tecnológico [cite:@Ames2019]
++ Ilusión tecnocrática
 #+end_colde
 
 #+begin_coliz
@@ -135,7 +136,6 @@ Propongo algunos factores:
 #+end_quote
 -- [cite:@Ames2019]
 
-
 * Ejemplo: OpenMRS en Uganda
 #+begin_coliz
 Construyamos un sistema para
@@ -171,6 +171,11 @@ Construyamos un sistema para
 + Posición construcionista (/constructionism/) de la educación
 + No complementa; reemplaza
 #+end_colde
+
+* Preguntas
+
+#+attr_html: :width 40% 
+[[file:media/qr.png]]
 
 * Referencias
 :PROPERTIES:
