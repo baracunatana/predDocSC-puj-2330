@@ -1,0 +1,183 @@
+#+title: Tecnocentrismo, tecnoutopianismo, y determinismo tecnológico 
+#+author: Juan E. Gómez-Morantes, PhD
+
+# Configuración básica
+#+reveal_root: https://cdn.jsdelivr.net/gh/hakimel/reveal.js@4.1.2/
+#+reveal_version: 4
+#+reveal_hlevel: 1
+#+language: es
+#+reveal_theme: solarized
+#+options: toc:nil num:nil reveal_width:1600 reveal_height:900 reveal_margin:0.1 reveal_minScale:0.2 reveal_maxScale:2.5 reveal_transition:'cube' reveal_history:true date:nil html5-fancy:t reveal_embed_local_resources:t
+#+reveal_extra_css: https://cdn.jsdelivr.net/gh/baracunatana/re-reveal-estilos/j-oer-re-reveal.css
+#+reveal_plugins: (notes)
+#+export_file_name: ./docs/index.html
+
+#+bibliography: /home/juan/biblioteca/main.bib
+#+cite_export: csl
+
+#+reveal_head_preamble: <style> .hidden { display: none;}</style>
+#+reveal_head_preamble: <style> .con-imagen { padding: 80px; background-color: rgba(255, 255, 255, .6); }</style>
+
+#+reveal_title_slide_extra_attr: style="font-size: 40%;"
+
+* Introducción
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: hidden
+:END:
+
+#+begin_coliz
+#+attr_html: :width 70% 
+[[file:media/juanPerfil.jpg]]
+#+end_coliz
+
+#+begin_colde
+#+attr_html: :align left
+#+attr_html: :style font-size: 40%;
+#+begin_div
+#+attr_html: :style font-size: 200%;
+*Juan Erasmo Gómez-Morantes*
+
+#+attr_html: :style font-size: 150%;
+/je.gomezm@javerianae.edu.co/
+
+Ingeniero de Sistemas y Computación, Universidad de los Andes
+
+MSc en Ingeniería, Universidad de los Andes
+
+PhD en /Development Policy and Management/, Universidad de Mánchester
+
+Profesor del Departamento de Ingeniería de Sistemas, Pontificia Universidad Javeriana
+
+#+html: <br/><br/><br/>
+
+#+end_div
+#+end_colde
+
+* Objetivo
++ Explicar el límite de las tecnologías digitales como solución a problemas sociales
++ Explicar diferentes teorías, modelos, y conceptos útiles para entender este límite
++ Mostrar un ejemplo de cómo se sobredimensiona el potencial de la tecnología de información como factor de cambio social
+  
+* Ejercicio: Menos es más
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: con-imagen
+:reveal_background: ./media/avion.jpeg
+:END:
+
+#+begin_notes
+Se usa el ejercicio de convertir IX en un 6 para demostrar que, en ocasiones, nuestro conocimiento nos oculta opciones.
+#+end_notes
+
+* La falta de luz nos impide ver el mundo, pero mucha nos puede cegar.
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: con-imagen
+:reveal_background: ./media/sagrada.jpg
+:END:
+
+#+begin_notes
+Redondear el concepto antarior con la frase supuestamente dicha por Dali (aclaron que no he podido verificar esto
+#+end_notes
+* El mundo en una pantalla
+#+begin_colde
++ Tecnocetrismo [cite:@Papert1990]
++ Determinismo tecnológico [cite:@Bijker2012; @Wyatt2008]
++ Tecnoutopianismo [cite:@Lim2018] 
++ Carisma tecnológico [cite:@Ames2019]
+#+end_colde
+
+#+begin_coliz
+#+caption: Imagen generada con Bing Image Creator
+#+attr_html: :width 70% :title Promp: A representation of a techbro thinking hard about how to solve global warming with a mobile app. Realism
+[[file:media/techbro.jpeg]]
+#+end_coliz
+
+* Surgimiento
+
+[[file:media/accionConProposito.png]]
+
+#+begin_notes
+Explicar el ciclo de acción con propósito y la forma en la que se puede convertir en un ciclo visioso gobernado por sesgos.
+
+Luego viene la pregunta de qué factores hacen que nuestra visión del mundo se vuelva tecnocentrista o tecnoutopianista.
+#+end_notes
+
+* Surgimiento
++ Aislamiento disciplinar
++ Fronteras disciplinares ríguidas (nada entra, nada sale)
++ Ideología
++ Identidad (e.g. el /technologically precocious boy/ en [cite:@Ames2019])
+
+#+begin_notes
+Acá continuamos con la pregunta de la lámina anterior: ¿qué hace que nuestra visión del mundo se vuelva tecnocentrista?
+
+Propongo algunos factores:
++ Aislamiento disciplinar: Los desarrolladores de tecnología (no se limita a ingenieros formales) saben de eso, de desarrollar tecnología. Siendo así, es difícil para estos ver las cosas desde una perspectiva agena a la propia. Hasta cierto punto, es natural. No se puede esperar que alguien (cualquier persona) vea el mundo desde perspectivas distintas a la suya propia.
++ Fronteras disciplinares: La ingeniería se defiende de cualquier cosa que implique retar sus fronteras. O si no, pregúntense por qué estoy yo acá hoy. Por otro lado, desde afuera se insiste a limitar a los ingenieros a que "hagan lo suyo".
++ Ideología: Desde una perspectiva antropológica, la tecnológia se puede ver como símbolo de progreso. Por eso todo lo que intente limitarla o controlarla se ataca con el argumento de "pretenden mantenernos en el pasado" o de "pensamiento retrógrado". En adición, existe la idea de
+#+end_notes
+
+* Expresión y materialización
+#+caption: El design-reality gap model. Tomado de [cite:@Heeks2006]
+[[file:media/drgaps.png]]
+
+* Desarrollo
++ Eficancia, eficiencia, y efectividad
++ Carisma
+
+** Eficacia, eficiencia, y efectividad
+#+caption: Imagen generada con Bing Image Creator
+#+attr_html: :width 40% :title Promp: two inmates in a violent and overcrowded prison playing video games while a huge prison brawl happens behind them, realism
+[[file:media/carcel.jpeg]]
+
+** Carisma
+#+begin_quote
+[...] a charismatic technology derives its power experientially and symbolically through the possibility or promise of action: what is important is not what the object is but how it invokes the imagination through what it promises to do.
+#+end_quote
+-- [cite:@Ames2019]
+
+
+* Ejemplo: OpenMRS en Uganda
+#+begin_coliz
+Construyamos un sistema para
++ Enviar recordatorios de citas de control para pacientes con SIDA
++ Enviar recordatorios para toma de medicamentos retrovirales
+
+¿Qué podría salir mal?
+#+end_coliz
+
+#+begin_colde
+#+caption: Imagen generada con Bing Image Creator
+#+attr_html: :width 70% :title Promp: A representation of a techbro thinking hard about how to solve global warming with a mobile app. Realism
+[[file:media/techbro.jpeg]]
+#+end_colde
+
+** Design-reality gaps en el caso
+#+caption: El design-reality gap model. Tomado de [cite:@Heeks2006]
+[[file:media/drgaps.png]]
+
+* Ejemplo: OLPC en Paraguay
+#+begin_coliz
+#+caption: El OLPC XO-1
+[[file:media/olpc.png]]
+#+end_coliz
+
+#+begin_colde
++ Computador portátil de +$100+ $200 dólares
++ Se puede cargar +manualmente+ conectándolo a la pared
++ Sistema operativo propio
++ Software de código abierto
++ Acceso a internet
++ Aplicaciones enfocado en educación
++ Posición construcionista (/constructionism/) de la educación
++ No complementa; reemplaza
+#+end_colde
+
+* Referencias
+:PROPERTIES:
+:CUSTOM_ID: bibliography
+:END:
+#+attr_html: :style font-size: 50%;
+#+attr_html: :align left
+#+begin_div
+#+print_bibliography:
+#+end_div
